@@ -7,12 +7,14 @@ import app.reservation_service.model.ReservationLineItems;
 import app.reservation_service.repository.ReservationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class ReservationService {
 
       private final ReservationRepository reservationRepository;
