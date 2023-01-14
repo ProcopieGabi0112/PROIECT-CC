@@ -1,0 +1,64 @@
+proiect_cc/grafana
+proiect_cc/grafana/*
+proiect_cc/mongo-data
+proiect_cc/mongo-data/*
+proiect_cc/mysql_keycloak_data
+proiect_cc/mysql_keycloak_data/*
+proiect_cc/postgres-inventory
+proiect_cc/postgres-inventory/*
+proiect_cc/postgres-order/*
+proiect_cc/postgres-order
+proiect_cc/realms
+proiect_cc/realms/*
+ebooking/node_modules
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
+
+### react ###
+ebooking/.DS_*
+ebooking/*.log
+ebooking/logs
+ebooking/ebooking/**/*.backup.*
+**/*.back.*
+
+ebooking/node_modules
+ebooking/bower_components
+
+ebooking/*.sublime*
+
+ebooking/psd
+ebooking/thumb
+ebooking/sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
+
+# Created by https://www.toptal.com/developers/gitignore/api/java
+# Edit at https://www.toptal.com/developers/gitignore?templates=java
+
+### Java ###
+# Compiled class file
+proiect_cc/*.class
+
+# Log file
+proiect_cc/*.log
+
+# BlueJ files
+proiect_cc/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+proiect_cc/.mtj.tmp/
+
+# Package Files #
+proiect_cc/*.jar
+proiect_cc/*.war
+proiect_cc/*.nar
+proiect_cc/*.ear
+proiect_cc/*.zip
+proiect_cc/*.tar.gz
+proiect_cc/*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+proiect_cc/hs_err_pid*
+proiect_cc/replay_pid*
+
+# End of https://www.toptal.com/developers/gitignore/api/java

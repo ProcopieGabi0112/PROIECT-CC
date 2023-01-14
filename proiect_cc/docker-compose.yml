@@ -191,7 +191,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./arhitecture_management/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
     depends_on:
       - product-service
       - inventory-service
